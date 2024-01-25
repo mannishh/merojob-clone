@@ -1,0 +1,192 @@
+body{
+  font-family: Arial;
+}
+
+.container{
+  width: 780px;
+  margin-left: 100px;
+  margin-top: 15px;
+  display: inline-block;
+}
+
+.top-section{
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  border: 1.5px solid lightgray;
+  padding: 15px 20px;
+  font-family: Arial;
+  font-size: 13px;
+}
+
+.star-image{
+  margin-right: 5px;
+}
+
+.top-section img{
+  width: 15px;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border: 1px solid lightgray;
+  border-top-style: none;
+}
+
+
+
+
+.content-row-1{
+  display: flex;
+  border: 1px solid lightgray;
+  background-color: rgb(241, 241, 241);
+}
+
+
+
+.content-row-2{
+  display: flex;
+  border: 1px solid lightgray;
+}
+
+
+.company-logo{
+  border: 1px solid lightgray;
+  margin-top: 8px;
+  margin-bottom: 12px;
+  margin-left: 8px;
+  margin-right: 10px;
+}
+
+.description{
+  font-size: 13px;
+  color: rgb(0, 42, 91);
+  margin-top: 8px;
+}
+
+.company-name{
+  margin-bottom: 4px;
+}
+
+.company-position{
+  line-height: 18px;
+}
+
+.mid-right-section{
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 31px;
+  margin-top: 15px;
+  width: 268px;
+}
+
+.mid-right{
+  margin-bottom: 15px;
+}
+
+.right-top-section{
+  text-transform: capitalize;
+  border: 1.5px solid lightgray;
+  padding: 15px 20px;
+  font-family: Arial;
+  font-size: 13px;
+}
+
+.mid-right-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1.5px solid lightgray;
+  border-top-style: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.mrc-img{
+  width: 60px;
+}
+
+.mid-right-content-2{
+  border: 1.5px solid lightgray;
+  border-top-style: none;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.job-cat{
+  display: flex;
+  align-items: center;
+  color: rgb(0, 42, 91);
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+.job-category-img{
+  width: 15px;
+  margin-right: 5px;
+}
+
+.mid-right-divider{
+  border-top: 1px solid lightgray;
+  margin-top: 15px;
+}
+
+.more{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 13px;
+  color: rgb(0, 42, 91);
+}
+
+
+.tender-top-section{
+  text-transform: capitalize;
+  padding: 15px 20px;
+  font-family: Arial;
+  font-size: 13px;
+  border: 1.5px solid lightgray;
+}
+
+.tender-content{
+  display: flex;
+  padding: 15px 12px;
+  font-size: 13px;
+  color: rgb(0, 42, 91);
+  border: 1.5px solid lightgray;
+  border-top-style: none;
+}
+
+.tender-img{
+  border: 1px solid lightgray;
+  margin-right: 8px;
+}
+
+.tender-info{
+  line-height: 20px;
+}
+
+.tender-content .views{
+  font-style: italic;
+  font-size: 10px;
+}
+
+.view-all{
+  width: 15px;
+}
+
+.view{
+  display: flex;
+  border: 1.5px solid lightgray;
+  border-top-style: none;
+  font-size: 10px;
+  color: rgb(0, 42, 91);
+  padding: 10px;
+  align-items: center;
+  justify-content: end;
+}
+
+.view img{
+  margin-right: 5px;
+}

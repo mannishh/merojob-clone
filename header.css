@@ -1,0 +1,110 @@
+.header{
+  position: fixed;
+  display: flex;
+  font-family: Roboto, Arial;
+  height: 55px;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.5);
+  z-index: 200;
+  background-color: white;
+  left: 0;
+  right: 0;
+}
+
+.logo{
+  height: 30px;
+}
+
+.image-logo{
+  margin-right: 78px;
+  cursor: pointer;
+}
+
+
+.left-section{
+  display: flex;
+  margin-left: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.middle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+}
+
+.middle div{
+  margin-right: 40px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.browse:hover,
+.blog:hover,
+.faq:hover{
+  color: gray;
+}
+
+.right-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  margin-right: 90px;
+}
+
+button{
+  font-size: 13px;
+  width: 124px;
+  padding: 10px 20px;
+}
+
+.login-btn{
+  color: rgb(23, 162, 184);
+  background-color: white;
+  border: 1px rgb(23, 162, 184) solid ;
+  border-radius: 5px;
+  margin-right: 8px;
+  transition: 0.15s;
+  cursor: pointer;
+}
+
+.login-btn:hover{
+  background-color: rgb(23, 162, 184);
+  color: white;
+}
+
+.register-btn{
+  background-color: rgb(23, 162, 184);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-right: 12px;
+  transition: 0.15s;
+  cursor: pointer;
+}
+
+.register-btn:hover{
+  background-color: rgb(46, 144, 159);
+}
+
+.divider{
+  border-left: 1px solid lightgray;
+  height: 45px;
+}
+
+.emp-zone{
+  font-weight: bold;
+  font-size: 13px;
+  margin-left: 12px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.emp-zone:hover{
+  color: rgb(75, 74, 74);
+}
