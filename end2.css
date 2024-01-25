@@ -1,0 +1,65 @@
+h6{
+  margin: 0;
+}
+
+.end2{
+  background-color: #495057;
+  margin-top: 50px;
+}
+
+.end2-container{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 80px;
+}
+
+.end2 .description{
+  width: 350px;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: justify;
+  font-size: 10px;
+  line-height: 18px;
+}
+
+.description a{
+  color: rgb(0, 174, 218);
+  text-decoration: none;
+}
+
+.topic{
+  margin-top: 8px;
+  font-size: 13px;
+}
+
+.topic ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 20px;
+}
+
+.text-white{
+  color: white;
+  margin-bottom: 10px;
+}
+
+.address,
+.phone,
+.email{
+  display: flex;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 20px;
+  margin-bottom: 5px;
+}
+
+.address img{
+  width: 18px;
+  margin-right: 5px;
+}
+
+.phone img,
+.email img{
+  width: 15px;
+  margin-right: 8px;
+}
